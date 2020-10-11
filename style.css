@@ -10,7 +10,8 @@
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+}
 body {
   font-family: system-ui;
   color: white;
@@ -48,4 +49,41 @@ body {
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+.main {
+  position: absolute;
+  top: 54%;
+  left: 32.3%;
+  font-size: 100%;
+  color: #6eba70;
+  width: 40%;
+  background-color: #6e6d6d;
+  text-decoration: border;
+}
+.stone {
+  position: absolute;
+  top: 55%;
+  left: -33.9%;
+  font-size: 150%;
+  color: #6eba70;
+  width: 100%;
+  height: auto;
+}
+.old {
+  position: absolute;
+  top: 48%;
+  left: 36.5%;
+  font-size: 150%;
+  color: #6eba70;
+  width: 100%;
+  height: auto;
+}
+.map {
+  position: absolute;
+  top: 78%;
+  left: 36.5%;
+  font-size: 150%;
+  color: #6eba70;
+  width: 100%;
+  height: auto;
 }
